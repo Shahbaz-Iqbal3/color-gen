@@ -1,6 +1,6 @@
 const containerEl = document.querySelector(".container");
 
-for (let index = 0; index < 1500; index++) {
+for (let index = 0; index < 30; index++) {
   const colorboxEL = document.createElement("div");
   colorboxEL.classList.add("color-box");
   containerEl.appendChild(colorboxEL);
